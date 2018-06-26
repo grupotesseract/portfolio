@@ -1,3 +1,9 @@
+## Gerador de Postagens
+
+Deixar fácil a criação de novas postagens, utilizando um template onde possamos tirar print pelo developer tools do browser, já na resolução da determinada mídia social.
+
+Talvez um dia fazer a integração com as contas das mídias sociais, automatizando as postagens.
+
 ## Passos da criação do projeto
 
 ### Clonando a o repositório após criar no github
