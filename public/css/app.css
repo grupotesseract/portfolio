@@ -22,13 +22,21 @@ $line-height-base: 1.6;
 }
 */
 
-img {
-  margin: 15px 10px 0 !important;
+section {
+  padding: 0;
 }
 
-a {
-  color: #dd5566 !important;
+img {
+  margin: 0;
+  border: none;
+  border-radius: 5px;
 }
+
+/*
+a {
+	color: #dd5566 !important;
+}
+*/
 
 .lista li {
   font-size: 2rem;
@@ -37,4 +45,15 @@ a {
 /*.claro li a, .claro a {
 	
 }*/
+
+.vivala {
+  background: -webkit-gradient(linear, left top, right bottom, from(#facfb7), to(#f16f2b));
+  background: linear-gradient(to bottom right, #facfb7, #f16f2b);
+}
+
+.iphone {
+  width: 550px;
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
 

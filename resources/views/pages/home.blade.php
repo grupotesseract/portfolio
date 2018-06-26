@@ -8,7 +8,9 @@
 		<title>Gerador de Postagem</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/blood.css">
+		<!--
+		<link rel="stylesheet" href="css/theme/black.css">
+		-->
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="css/zenburn.css">
@@ -26,13 +28,9 @@
 	</head>
 	<body>
 		<div class="reveal">
-			<div class="slides">
+			<div class="slides vivala">
 				<section>
-					<h2>Alabama OT</h2>
-					<h4>Servidor Open Source de Tibia</h4>
-					<h4>
-						<a href="http://www.alabamaot.com/" target="_blank">alabamaot.com</a>
-					</h4>
+					<img class="iphone" src="images/vivala-mobile.png">
 				</section>
 
 				<section>
