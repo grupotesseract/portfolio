@@ -46,15 +46,17 @@
 			//margin: 0.04,
 
 			// Bounds for smallest/largest possible scale to apply to content
-			//minScale: 0.2,
-			//maxScale: 2.0,
+			minScale: 0.2,
+			maxScale: 2.0,
 
 			// Custom Fullscreen Box
-			width: "100%",
-			height: "100%",
+			//width: "100%",
+			//height: "100%",
+			width: 1080,
+			height: 1080,
 			margin: 0,
-			minScale: 1,
-			maxScale: 1,
+			//minScale: 1,
+			//maxScale: 1,
 
 			// Display presentation control arrows
 			controls: false,

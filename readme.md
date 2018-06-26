@@ -56,3 +56,12 @@ ggpush
 ### Acertando as views
 
 ### Integrando o reveal.js com o Laravel
+
+### Color Picker
+https://www.w3schools.com/colors/colors_picker.asp
+
+### CSS3 Gradients
+https://www.w3schools.com/css/css3_gradients.asp
+
+### Material Design Box Shadows - Codepen
+https://codepen.io/sdthornton/pen/wBZdXq
