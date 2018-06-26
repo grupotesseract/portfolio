@@ -38,3 +38,21 @@ git add .
 git commit -m "adicinando o gitignore"
 ggpush
 ```
+
+### Adicionando o Laradock como sub-módulo
+git submodule add https://github.com/laradock/laradock.git
+git add .
+git commit -m "adicionando o laradock como sub-módulo"
+ggpush
+
+### Acertando o .env do Laravel e do Laradock
+
+### Upando o container
+
+### Instalando o NPM
+
+### Arrumando o assets
+
+### Acertando as views
+
+### Integrando o reveal.js com o Laravel
