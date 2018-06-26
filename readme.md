@@ -6,7 +6,7 @@ Talvez um dia fazer a integração com as contas das mídias sociais, automatiza
 
 ## Passos da criação do projeto
 
-### Clonando a o repositório após criar no github
+### Clonando a o repositório após cria-lo no github
 ```
 cd Documents
 git clone https://github.com/grupotesseract/gerador-de-postagem.git
