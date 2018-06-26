@@ -60,22 +60,27 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
+# Clonando a o repositório após criar no github
 cd Documents
 git clone https://github.com/grupotesseract/gerador-de-postagem.git
 cd gerador-de-postagem
 
+# Adicionando o Laravel
 cd ..
 git clone https://github.com/laravel/laravel.git
 cd laravel
 rm -rf .git
 cp -r ./ ~/Documents/gerador-de-postagem
-
-
 git add .
 git commit -m "adicionando laravel"
 ggpush
 
+# Criando o read.me resumindo a criação do projeto
 git add .
 git commit -m "adicinando o read.me"
 ggpush
 
+# Criando o .gitignore pelo gitignor.io
+git add .
+git commit -m "adicinando o gitignore"
+ggpush
