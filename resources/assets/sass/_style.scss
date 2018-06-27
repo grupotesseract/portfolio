@@ -1,9 +1,14 @@
-section {
+/*section {
+	padding: 0;
+}*/
+
+.reveal .slides > section,
+.reveal .slides > section > section {
 	padding: 0;
 }
 
 img {
-	margin: 0;
+	margin: auto !important;
 	border: none;
 	border-radius: 5px;
 }
@@ -21,17 +26,33 @@ a {
 	
 }*/
 
+section {
+	section {
+		height: 1080px;
+		width: 1080px !important;
+		display: flex !important;
+		.quadrado {
+			display: flex !important;
+			width: 100%;
+		}
+	}
+}
+
 .vivala {
-	background: linear-gradient(to bottom right, $vivala-laranja-1, $vivala-laranja-2);
+	section {
+		background: linear-gradient(to bottom right, $vivala-laranja-1, $vivala-laranja-2);
+	}
 }
 
 .tesseract {
-	background: linear-gradient(to bottom right, $tesseract-branco, $tesseract-preto);
+	section {
+		background: linear-gradient(to bottom right, $tesseract-branco, $tesseract-preto);
+	}
 }
 
-.iphone {
+.mobile {
 	//width: 200px;
-	width: 550px;
+	width: 400px;
 	// Site de referência das box-shadow:
 	// https://codepen.io/sdthornton/pen/wBZdXq
 

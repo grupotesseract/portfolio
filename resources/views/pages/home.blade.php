@@ -31,19 +31,29 @@
 			<div class="slides">
 				<section class="tesseract">
 					<section>
-						<img class="iphone" src="images/vivala-mobile.png">
+						<div class="quadrado">
+							<img class="mobile" src="images/vivala-mobile-menu.png">							
+						</div>
 					</section>
+
 					<section>
-						<img class="iphone" src="images/vivala-mobile.png">
+						<div class="quadrado">
+							<img class="mobile" src="images/vivala-mobile.png">							
+						</div>
 					</section>
 				</section>
 
 				<section class="vivala">
 					<section>
-						<img class="iphone" src="images/vivala-mobile.png">
+						<div class="quadrado">
+							<img class="mobile" src="images/vivala-mobile.png">							
+						</div>
 					</section>
+
 					<section>
-						<img class="iphone" src="images/vivala-mobile.png">
+						<div class="quadrado">
+							<img class="mobile" src="images/vivala-mobile-menu.png">							
+						</div>
 					</section>
 				</section>
 			</div>
