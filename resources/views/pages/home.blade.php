@@ -28,13 +28,23 @@
 	</head>
 	<body>
 		<div class="reveal">
-			<div class="slides vivala">
-				<section>
-					<img class="iphone" src="images/vivala-mobile.png">
+			<div class="slides">
+				<section class="tesseract">
+					<section>
+						<img class="iphone" src="images/vivala-mobile.png">
+					</section>
+					<section>
+						<img class="iphone" src="images/vivala-mobile.png">
+					</section>
 				</section>
 
-				<section>
-					<h4>Open Tibia Server</h4>
+				<section class="vivala">
+					<section>
+						<img class="iphone" src="images/vivala-mobile.png">
+					</section>
+					<section>
+						<img class="iphone" src="images/vivala-mobile.png">
+					</section>
 				</section>
 			</div>
 		</div>

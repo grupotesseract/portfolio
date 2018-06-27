@@ -51,6 +51,11 @@ a {
   background: linear-gradient(to bottom right, #facfb7, #f16f2b);
 }
 
+.tesseract {
+  background: -webkit-gradient(linear, left top, right bottom, from(white), to(black));
+  background: linear-gradient(to bottom right, white, black);
+}
+
 .iphone {
   width: 550px;
   -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
