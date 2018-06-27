@@ -2,9 +2,11 @@
 
 ## https://postagem.grupotesseract.com.br/
 
-Deixar fácil a criação de novas postagens, utilizando um template onde possamos tirar print pelo developer tools do browser, já na resolução da determinada mídia social.
+Template para criação de novas postagens para as mídias sociais.
 
-Talvez um dia fazer a integração com as contas das mídias sociais, automatizando as postagens.
+Utilizando o developer tools do browser, deixe a resolução em 1080x1080 pixels e tire uma print da tela atual, isso gera um arquivo .png pronto para a postagem na mídia social.
+
+Um dia fazeremos a integração com a conta das mídias sociais, automatizando as postagens.
 
 ## Passos da criação do projeto
 
