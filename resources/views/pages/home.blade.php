@@ -72,6 +72,10 @@
 				<section class="alabamaot">
 					<section>
 						<div class="quadrado">
+							<a href="" target="_blank">
+								<h1>alabamaot.com</h1>
+							</a>
+
 							<img class="img-desktop" src="images/alabamaot-desktop.png">							
 						</div>
 					</section>

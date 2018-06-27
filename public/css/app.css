@@ -32,7 +32,7 @@ $line-height-base: 1.6;
 }
 
 img {
-  margin: auto !important;
+  margin: 0 !important;
   border: none;
   border-radius: 5px;
 }
@@ -63,7 +63,32 @@ section section .quadrado {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
+  -ms-flex-wrap: wrap !important;
+      flex-wrap: wrap !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
   width: 100%;
+}
+
+section section .quadrado a {
+  text-decoration: none;
+}
+
+section section .quadrado a h1 {
+  font-size: 4rem;
+  font-family: ubuntu;
+  margin: 0 0 3rem !important;
+  display: block;
+  color: #051122;
+  text-decoration: none;
 }
 
 .boitata section {
