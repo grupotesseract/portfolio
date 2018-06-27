@@ -38,19 +38,31 @@ section {
 	}
 }
 
+.boitata {
+	section {
+		background: linear-gradient(to bottom right, $boitata-1, $boitata-2);
+	}
+}
+
 .vivala {
 	section {
-		background: linear-gradient(to bottom right, $vivala-laranja-1, $vivala-laranja-2);
+		background: linear-gradient(to bottom right, $vivala-1, $vivala-2);
+	}
+}
+
+.alabamaot {
+	section {
+		background: linear-gradient(to bottom right, $alabamaot-1, $alabamaot-2);
 	}
 }
 
 .tesseract {
 	section {
-		background: linear-gradient(to bottom right, $tesseract-branco, $tesseract-preto);
+		background: linear-gradient(to bottom right, $tesseract-1, $tesseract-2);
 	}
 }
 
-.mobile {
+.img-mobile {
 	//width: 200px;
 	width: 400px;
 	// Site de referência das box-shadow:
@@ -60,3 +72,15 @@ section {
 	//box-shadow: 0 19px 38px rgba(0,0,0,1), 0 15px 12px rgba(0,0,0,1) !important;
 	//box-shadow: 0 38px 76px rgba(0,0,0,1), 0 30px 24px rgba(0,0,0,1) !important;
 }
+
+.img-desktop {
+	//width: 200px;
+	width: 900px;
+	// Site de referência das box-shadow:
+	// https://codepen.io/sdthornton/pen/wBZdXq
+
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	//box-shadow: 0 19px 38px rgba(0,0,0,1), 0 15px 12px rgba(0,0,0,1) !important;
+	//box-shadow: 0 38px 76px rgba(0,0,0,1), 0 30px 24px rgba(0,0,0,1) !important;
+}
+

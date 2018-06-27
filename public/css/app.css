@@ -66,9 +66,19 @@ section section .quadrado {
   width: 100%;
 }
 
+.boitata section {
+  background: -webkit-gradient(linear, left top, right bottom, from(#9c1420), to(#000000));
+  background: linear-gradient(to bottom right, #9c1420, #000000);
+}
+
 .vivala section {
   background: -webkit-gradient(linear, left top, right bottom, from(#facfb7), to(#f16f2b));
   background: linear-gradient(to bottom right, #facfb7, #f16f2b);
+}
+
+.alabamaot section {
+  background: -webkit-gradient(linear, left top, right bottom, from(white), to(#051122));
+  background: linear-gradient(to bottom right, white, #051122);
 }
 
 .tesseract section {
@@ -76,8 +86,14 @@ section section .quadrado {
   background: linear-gradient(to bottom right, white, black);
 }
 
-.mobile {
+.img-mobile {
   width: 400px;
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.img-desktop {
+  width: 900px;
   -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
           box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }

@@ -29,30 +29,50 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section class="tesseract">
+				<section class="vivala">
 					<section>
 						<div class="quadrado">
-							<img class="mobile" src="images/vivala-mobile-menu.png">							
+							<img class="img-mobile" src="images/vivala-mobile.png">							
 						</div>
 					</section>
 
 					<section>
 						<div class="quadrado">
-							<img class="mobile" src="images/vivala-mobile.png">							
+							<img class="img-mobile" src="images/vivala-mobile-menu.png">							
+						</div>
+					</section>
+
+					<section>
+						<div class="quadrado">
+							<img class="img-desktop" src="images/vivala-desktop.png">							
 						</div>
 					</section>
 				</section>
 
-				<section class="vivala">
+				<section class="boitata">
 					<section>
 						<div class="quadrado">
-							<img class="mobile" src="images/vivala-mobile.png">							
+							<img class="img-mobile" src="images/boitata-mobile.png">							
 						</div>
 					</section>
 
 					<section>
 						<div class="quadrado">
-							<img class="mobile" src="images/vivala-mobile-menu.png">							
+							<img class="img-mobile" src="images/boitata-mobile-menu.png">							
+						</div>
+					</section>
+
+					<section>
+						<div class="quadrado">
+							<img class="img-desktop" src="images/boitata-desktop.png">							
+						</div>
+					</section>
+				</section>
+
+				<section class="alabamaot">
+					<section>
+						<div class="quadrado">
+							<img class="img-desktop" src="images/alabamaot-desktop.png">							
 						</div>
 					</section>
 				</section>

@@ -59,7 +59,7 @@
 			//maxScale: 1,
 
 			// Display presentation control arrows
-			controls: false,
+			controls: true,
 
 			// Help the user learn the controls by providing hints, for example by
 			// bouncing the down arrow when they first encounter a vertical slide
@@ -100,7 +100,7 @@
 			touch: true,
 
 			// Loop the presentation
-			loop: true,
+			loop: false,
 
 			// Change the presentation direction to be RTL
 			rtl: false,
@@ -168,10 +168,10 @@
 			focusBodyOnPageVisibilityChange: true,
 
 			// Transition style
-			transition: 'convex', // none/fade/slide/convex/concave/zoom
+			transition: 'concave', // none/fade/slide/convex/concave/zoom
 
 			// Transition speed
-			transitionSpeed: 'default', // default/fast/slow
+			transitionSpeed: 'slow', // default/fast/slow
 
 			// Transition style for full page slide backgrounds
 			backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
