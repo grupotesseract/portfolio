@@ -78,7 +78,7 @@ docker-compose exec --user=laradock workspace php artisan migrate
 ```
 - Caso o Laradock não crie o DB automaticamente, crie manualmente:
 ```
-docker-compose exec postgres createdb -U default alabamaotsite
+docker-compose exec postgres createdb -U default postagem
 docker-compose exec --user=laradock workspace php artisan migrate
 ```
 
@@ -98,11 +98,20 @@ npm install -g pngquant-bin
 - **Color Picker**
 https://www.w3schools.com/colors/colors_picker.asp
 
-### CSS3 Gradients
+- **CSS3 Gradients**
 https://www.w3schools.com/css/css3_gradients.asp
 
 - **Material Design Box Shadows - Codepen**
 https://codepen.io/sdthornton/pen/wBZdXq
+
+- **Reveal.js**
+https://revealjs.com/ 
+
+- **Laravel**
+https://laravel.com/
+
+- **Laradock**
+https://laradock.io/
 
 ## Passos da criação de um projeto Laravel com Laradock
 
