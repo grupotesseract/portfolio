@@ -3,12 +3,12 @@
 ## https://postagem.grupotesseract.com.br/
 
 Template para criação de novas postagens para as mídias sociais.
++
+Portfólio do Grupo Tesseract.
 
 Utilizando o developer tools do browser, deixe a resolução em 1080x1080 pixels e tire uma print da tela atual, isso gera um arquivo .png pronto para a postagem na mídia social.
 
 Gradientes e sombreamento feitos com CSS3/SASS.
-
-Um dia fazeremos a integração com a conta das mídias sociais, automatizando as postagens.
 
 ## Instalação
 
@@ -77,7 +77,7 @@ docker-compose exec postgres createdb -U default postagem
 docker-compose exec --user=laradock workspace php artisan migrate
 ```
 
-5. **NPM**
+6. **NPM**
 
 ```
 npm install
@@ -87,6 +87,20 @@ npm install
 sudo apt-get install libpng-dev
 npm install -g pngquant-bin
 ```
+
+## Próximos passos do projeto
+
+1. Colocar todos os projetos no potfólio.
+2. Modularizar o Front-end.
+3. Fazer uma header no início da página.
+4. Fazer um tutorial de como tirar os prints.
+5. Fazer o tutorial de como alterar as imagens, cores e gradientes.
+6. colocar as imagens no cloudnire.
+7. Adicionar autenticação de usuário.
+8. Criar um espaço para criação do portfólio do usuário.
+9. Criar mais templates UI/UX.
+10. Deixar o read.me bonitão.
+11. Login com a conta do Facebook e Google.
 
 ## Referências e Ferramentas
 
