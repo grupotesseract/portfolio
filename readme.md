@@ -20,9 +20,9 @@ git clone --recurse-submodules https://github.com/Acquati/alabamaot-npccreator
 
 2. **Criando o .env do Laravel**
 
-- Áreas que precisam ser configuradas:
+- **Áreas que precisam ser configuradas:**
 ```
-APP_URL=http://localhost:8082
+APP_URL=http://localhost:8085
 ```
 ```
 DB_CONNECTION=pgsql
@@ -35,7 +35,7 @@ DB_PASSWORD=secret
 
 3. **Criando o .env do Laradock**
 
-- Áreas que precisam ser configuradas:
+- **Áreas que precisam ser configuradas:**
 ```
 # Data Path
 Choose storage path on your machine. For all storage systems.
@@ -48,11 +48,6 @@ PHP_FPM_INSTALL_PGSQL=true
 ```
 # NGINX
 NGINX_HOST_HTTP_PORT=8085
-NGINX_HOST_HTTPS_PORT=443
-NGINX_HOST_LOG_PATH=./logs/nginx/
-NGINX_SITES_PATH=./nginx/sites/
-NGINX_PHP_UPSTREAM_CONTAINER=php-fpm
-NGINX_PHP_UPSTREAM_PORT=9000
 ```
 ```
 # POSTGRES
