@@ -90,17 +90,18 @@ npm install -g pngquant-bin
 
 ## Próximos passos do projeto
 
-1. Colocar todos os projetos no potfólio.
-2. Modularizar o Front-end.
-3. Fazer uma header no início da página.
-4. Fazer um tutorial de como tirar os prints.
-5. Fazer o tutorial de como alterar as imagens, cores e gradientes.
-6. colocar as imagens no cloudnire.
-7. Adicionar autenticação de usuário.
-8. Criar um espaço para criação do portfólio do usuário.
-9. Criar mais templates UI/UX.
-10. Deixar o read.me bonitão.
-11. Login com a conta do Facebook e Google.
+- Colocar todos os projetos no potfólio.
+- Modularizar o Front-end.
+- Fazer uma header no início da página.
+- Fazer um tutorial de como tirar os prints.
+- Fazer o tutorial de como alterar as imagens, cores e gradientes.
+- colocar as imagens no cloudnire.
+- Adicionar autenticação de usuário.
+- Criar um espaço para criação do portfólio do usuário.
+- Criar mais templates UI/UX.
+- Deixar o read.me bonitão.
+- Login com a conta do Facebook e Google.
+- Usar os arquivos em SASS do reveal.js.
 
 ## Referências e Ferramentas
 
