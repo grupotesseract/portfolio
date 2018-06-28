@@ -91,7 +91,6 @@ npm install -g pngquant-bin
 ## Próximos passos do projeto
 
 - Colocar todos os projetos no potfólio.
-- Modularizar o Front-end.
 - Fazer uma header no início da página.
 - Fazer um tutorial de como tirar os prints.
 - Fazer o tutorial de como alterar as imagens, cores e gradientes.

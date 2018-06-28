@@ -1,8 +1,6 @@
 
 // Fonts
-/*
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
-*/
+@import "fonts";
 
 // Variables
 @import "variables";
@@ -17,5 +15,8 @@
 }
 */
 
-// General Style
-@import "style";
+// Header
+@import "header";
+
+// Content
+@import "content";

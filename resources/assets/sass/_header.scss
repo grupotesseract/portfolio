@@ -1,0 +1,15 @@
+body {
+	position: relative;
+}
+
+.header {
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 1rem 0 0 1rem;
+
+	h1 {
+		font-family: $font-family-edmondsans-regular;
+		margin: 0 0 2rem;
+	}
+}
