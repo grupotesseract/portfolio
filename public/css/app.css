@@ -120,6 +120,7 @@ body {
 .header a:active {
   display: block;
   color: black;
+  text-decoration: none;
 }
 
 .header a i,
@@ -211,6 +212,20 @@ body {
 @media (max-width: 991.98px) {
   .img-logo img {
     width: 50px;
+  }
+}
+
+.button-hide {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 0 0 1rem 1rem;
+  z-index: 2000;
+}
+
+@media (max-width: 991.98px) {
+  .button-hide {
+    padding: 0 0 0.5rem 0.5rem;
   }
 }
 

@@ -1,5 +1,7 @@
 <div class="header">
-	<h1>Portfólio<br class="viuva"> Grupo Tesseract</h1>
+	<a href="https://www.grupotesseract.com.br/" target="_blank">
+		<h1>Portfólio<br class="viuva"> Grupo Tesseract</h1>
+	</a>
 
 	<div class="links-header">
 		<a href="https://www.grupotesseract.com.br/" target="_blank">
@@ -17,5 +19,11 @@
 </div>
 
 <div class="img-logo">
-	<img src="images/logo-tesseract-preto-simples.png">
+	<a href="https://www.grupotesseract.com.br/" target="_blank">
+		<img src="images/logo-tesseract-preto-simples.png">
+	</a>
+</div>
+
+<div class="button-hide">
+	<i class="far fa-eye-slash fa-2x"></i>
 </div>

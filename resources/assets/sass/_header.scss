@@ -26,6 +26,7 @@ body {
 	a , a:link, a:visited, a:hover, a:active {
 		display: block;	
 		color: black;
+		text-decoration: none;
 
 		i, p {
 			display: inline-block;
@@ -68,11 +69,20 @@ body {
 	right: 0;
 	top: 0;
 	padding: 1rem 1rem 0 0;
-	z-index: 2000;
 	@media (max-width: 991.98px) { padding: 0.5rem 0.5rem 0 0; }
+	z-index: 2000;
 
 	img {
 		width: 80px;
 		@media (max-width: 991.98px) { width: 50px; } 
 	}
+}
+
+.button-hide {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 0 0 1rem 1rem;
+	@media (max-width: 991.98px) { padding: 0 0 0.5rem 0.5rem; }
+	z-index: 2000;
 }

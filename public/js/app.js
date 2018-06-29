@@ -75,7 +75,13 @@ module.exports = __webpack_require__(2);
 /* 1 */
 /***/ (function(module, exports) {
 
-
+/* Esconde os botões para tirar o print. */
+$(".button-hide").on("click", function () {
+  $(".header").css("display", "none");
+  $(".img-logo").css("display", "none");
+  $(".controls").css("display", "none");
+  $(".button-hide").css("display", "none");
+});
 
 /**
  * First we will load all of this project's JavaScript dependencies which
