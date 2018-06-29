@@ -91,11 +91,81 @@ body {
   left: 0;
   top: 0;
   padding: 1rem 0 0 1rem;
+  z-index: 2000;
 }
 
 .header h1 {
+  font-family: "Jaapokki Regular", serif, sans-serif;
+  margin: 0 0 1rem;
+  font-weight: 500;
+}
+
+.header p {
   font-family: "EdmondSans Regular", serif, sans-serif;
-  margin: 0 0 2rem;
+  font-size: 2rem;
+  margin: 0 0 1rem;
+  color: black;
+}
+
+.header a,
+.header a:link,
+.header a:visited,
+.header a:hover,
+.header a:active {
+  display: block;
+  color: black;
+}
+
+.header a i,
+.header a p,
+.header a:link i,
+.header a:link p,
+.header a:visited i,
+.header a:visited p,
+.header a:hover i,
+.header a:hover p,
+.header a:active i,
+.header a:active p {
+  display: inline-block;
+}
+
+.header a i,
+.header a:link i,
+.header a:visited i,
+.header a:hover i,
+.header a:active i {
+  margin-right: 0.5rem;
+}
+
+.header a p,
+.header a:link p,
+.header a:visited p,
+.header a:hover p,
+.header a:active p {
+  text-decoration: underline;
+}
+
+.header a:hover i,
+.header a:hover p,
+.header a:active i,
+.header a:active p,
+.header a:link:hover i,
+.header a:link:hover p,
+.header a:link:active i,
+.header a:link:active p,
+.header a:visited:hover i,
+.header a:visited:hover p,
+.header a:visited:active i,
+.header a:visited:active p,
+.header a:hover:hover i,
+.header a:hover:hover p,
+.header a:hover:active i,
+.header a:hover:active p,
+.header a:active:hover i,
+.header a:active:hover p,
+.header a:active:active i,
+.header a:active:active p {
+  color: gray;
 }
 
 /*section {
@@ -188,7 +258,7 @@ section section .quadrado a h1 {
 }
 
 .img-mobile {
-  width: 400px;
+  width: 540px;
   -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
           box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }

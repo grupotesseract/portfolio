@@ -7,9 +7,41 @@ body {
 	left: 0;
 	top: 0;
 	padding: 1rem 0 0 1rem;
+	z-index: 2000;
 
 	h1 {
+		font-family: $font-family-jaapokki-regular;
+		margin: 0 0 1rem;
+		font-weight: 500;
+	}
+
+	p {		
 		font-family: $font-family-edmondsans-regular;
-		margin: 0 0 2rem;
+		font-size: 2rem;
+		margin: 0 0 1rem;
+		color: black;
+	}
+
+	a , a:link, a:visited, a:hover, a:active {
+		display: block;	
+		color: black;
+
+		i, p {
+			display: inline-block;
+		}
+
+		i {
+			margin-right: 0.5rem;
+		}
+
+		p {			
+			text-decoration: underline;
+		}
+
+		&:hover, &:active {
+			i, p {
+				color: gray;				
+			}
+		}
 	}
 }
