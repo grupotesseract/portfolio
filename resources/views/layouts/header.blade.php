@@ -15,3 +15,7 @@
 		</a>
 	</div>	
 </div>
+
+<div class="img-logo">
+	<img src="images/logo-tesseract-preto-simples.png">
+</div>
