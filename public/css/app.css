@@ -168,6 +168,20 @@ body {
   color: gray;
 }
 
+.header .viuva {
+  display: none;
+}
+
+@media (max-width: 991.98px) {
+  .header .links-header {
+    display: none;
+  }
+
+  .header .viuva {
+    display: block;
+  }
+}
+
 /*section {
 	padding: 0;
 }*/

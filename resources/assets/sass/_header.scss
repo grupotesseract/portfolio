@@ -44,4 +44,18 @@ body {
 			}
 		}
 	}
+
+	.viuva {
+		display: none;
+	}
+
+	@media (max-width: 991.98px) {
+		.links-header {
+			display: none;
+		}
+
+		.viuva {
+			display: block;
+		}
+	}
 }
