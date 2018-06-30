@@ -4,57 +4,19 @@
 
 <div class="reveal">
 	<div class="slides">
-		<section class="vivala">
-			<section>
-				<div class="quadrado">
-					<img class="img-mobile" src="images/vivala-mobile.png">							
-				</div>
-			</section>
+		@include('projects.vivala')
 
-			<section>
-				<div class="quadrado">
-					<img class="img-mobile" src="images/vivala-mobile-menu.png">							
-				</div>
-			</section>
+		@include('projects.boitata')
 
-			<section>
-				<div class="quadrado">
-					<img class="img-desktop" src="images/vivala-desktop.png">							
-				</div>
-			</section>
-		</section>
+		@include('projects.acordo-rapido')
 
-		<section class="boitata">
-			<section>
-				<div class="quadrado">
-					<img class="img-mobile" src="images/boitata-mobile.png">							
-				</div>
-			</section>
+		@include('projects.seus-direitos')
 
-			<section>
-				<div class="quadrado">
-					<img class="img-mobile" src="images/boitata-mobile-menu.png">							
-				</div>
-			</section>
+		@include('projects.tesseract')
 
-			<section>
-				<div class="quadrado">
-					<img class="img-desktop" src="images/boitata-desktop.png">							
-				</div>
-			</section>
-		</section>
+		@include('projects.shanti')
 
-		<section class="alabamaot">
-			<section>
-				<div class="quadrado">
-					<a href="http://alabamaot.com/" target="_blank">
-						<h1>alabamaot.com</h1>
-					</a>
-
-					<img class="img-desktop" src="images/alabamaot-desktop.png">							
-				</div>
-			</section>
-		</section>
+		@include('projects.alabamaot')
 	</div>
 </div>
 

@@ -47,11 +47,18 @@ section {
 					font-family: ubuntu;
 					margin: 0 0 3rem !important;
 					display: block;
-					color: $alabamaot-2;
+					color: white;
 					text-decoration: none;
 				}				
 			}
 		}
+	}
+}
+
+/* Gradients */
+.vivala {
+	section {
+		background: linear-gradient(to bottom right, $vivala-1, $vivala-2);
 	}
 }
 
@@ -61,42 +68,58 @@ section {
 	}
 }
 
-.vivala {
+.acordo-rapido {
 	section {
-		background: linear-gradient(to bottom right, $vivala-1, $vivala-2);
+		background: linear-gradient(to bottom right, $acordo-rapido-1, $acordo-rapido-2);
 	}
 }
 
-.alabamaot {
+.seus-direitos {
 	section {
-		background: linear-gradient(to bottom right, $alabamaot-1, $alabamaot-2);
+		background: linear-gradient(to bottom right, $seus-direitos-1, $seus-direitos-2);
 	}
 }
 
 .tesseract {
 	section {
-		background: linear-gradient(to bottom right, $tesseract-1, $tesseract-2);
+		background: radial-gradient($tesseract-1, $tesseract-2);
 	}
 }
 
+.shanti {
+	section {
+		background: radial-gradient($shanti-3, $shanti-2);
+		//background: linear-gradient(-135deg, $shanti-1, $shanti-2, $shanti-3);
+	}
+}
+
+.alabamaot {
+	section {
+		background: linear-gradient(to bottom right, $alabamaot-2, $alabamaot-2);
+	}
+}
+
+/* Responsividade */
 .img-mobile {
 	//width: 200px;
 	width: 540px;
 	// Site de referência das box-shadow:
 	// https://codepen.io/sdthornton/pen/wBZdXq
 
-	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	//box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 	//box-shadow: 0 19px 38px rgba(0,0,0,1), 0 15px 12px rgba(0,0,0,1) !important;
 	//box-shadow: 0 38px 76px rgba(0,0,0,1), 0 30px 24px rgba(0,0,0,1) !important;
 }
 
 .img-desktop {
 	//width: 200px;
-	width: 900px;
+	width: 920px;
 	// Site de referência das box-shadow:
 	// https://codepen.io/sdthornton/pen/wBZdXq
 
-	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	//box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 	//box-shadow: 0 19px 38px rgba(0,0,0,1), 0 15px 12px rgba(0,0,0,1) !important;
 	//box-shadow: 0 38px 76px rgba(0,0,0,1), 0 30px 24px rgba(0,0,0,1) !important;
 }

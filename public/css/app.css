@@ -63,9 +63,6 @@
 }
 
 /*
-// Body
-$body-bg: #f5f8fa;
-
 // Typography
 $font-family-sans-serif: "Raleway", sans-serif;
 $font-size-base: 0.9rem;
@@ -294,8 +291,15 @@ section section .quadrado a h1 {
   font-family: ubuntu;
   margin: 0 0 3rem !important;
   display: block;
-  color: #051122;
+  color: white;
   text-decoration: none;
+}
+
+/* Gradients */
+
+.vivala section {
+  background: -webkit-gradient(linear, left top, right bottom, from(#facfb7), to(#f16f2b));
+  background: linear-gradient(to bottom right, #facfb7, #f16f2b);
 }
 
 .boitata section {
@@ -303,30 +307,40 @@ section section .quadrado a h1 {
   background: linear-gradient(to bottom right, #9c1420, #000000);
 }
 
-.vivala section {
-  background: -webkit-gradient(linear, left top, right bottom, from(#facfb7), to(#f16f2b));
-  background: linear-gradient(to bottom right, #facfb7, #f16f2b);
+.acordo-rapido section {
+  background: -webkit-gradient(linear, left top, right bottom, from(#b5da8b), to(#0099e6));
+  background: linear-gradient(to bottom right, #b5da8b, #0099e6);
 }
 
-.alabamaot section {
-  background: -webkit-gradient(linear, left top, right bottom, from(white), to(#051122));
-  background: linear-gradient(to bottom right, white, #051122);
+.seus-direitos section {
+  background: -webkit-gradient(linear, left top, right bottom, from(#0086b3), to(#0086b3));
+  background: linear-gradient(to bottom right, #0086b3, #0086b3);
 }
 
 .tesseract section {
-  background: -webkit-gradient(linear, left top, right bottom, from(white), to(black));
-  background: linear-gradient(to bottom right, white, black);
+  background: radial-gradient(white, #282828);
 }
+
+.shanti section {
+  background: radial-gradient(#ac3956, white);
+}
+
+.alabamaot section {
+  background: -webkit-gradient(linear, left top, right bottom, from(#1A3418), to(#1A3418));
+  background: linear-gradient(to bottom right, #1A3418, #1A3418);
+}
+
+/* Responsividade */
 
 .img-mobile {
   width: 540px;
-  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
 .img-desktop {
-  width: 900px;
-  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  width: 920px;
+  -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
