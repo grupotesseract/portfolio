@@ -5,43 +5,43 @@
 				<h1>alabamaot.com</h1>
 			</a>
 
-			<img class="img-desktop" src="images/alabamaot-desktop-1.png">							
+			<img class="img-desktop" src="https://res.cloudinary.com/tesseract/image/upload/f_auto,q_auto/v1530378802/gerador-de-postagem/alabamaot-desktop-1.jpg">							
 		</div>
 	</section>
 
 	<section>
 		<div class="quadrado">
-			<img class="img-desktop" src="images/alabamaot-desktop-2.png">							
+			<img class="img-desktop" src="https://res.cloudinary.com/tesseract/image/upload/f_auto,q_auto/v1530378802/gerador-de-postagem/alabamaot-desktop-2.jpg">							
 		</div>
 	</section>
 
 	<section>
 		<div class="quadrado">
-			<img class="img-desktop" src="images/alabamaot-desktop-3.png">							
+			<img class="img-desktop" src="https://res.cloudinary.com/tesseract/image/upload/f_auto,q_auto/v1530378802/gerador-de-postagem/alabamaot-desktop-3.jpg">							
 		</div>
 	</section>
 
 	<section>
 		<div class="quadrado">
-			<img class="img-desktop" src="images/alabamaot-desktop-4.png">							
+			<img class="img-desktop" src="https://res.cloudinary.com/tesseract/image/upload/f_auto,q_auto/v1530378802/gerador-de-postagem/alabamaot-desktop-4.jpg">							
 		</div>
 	</section>
 
 	<section>
 		<div class="quadrado">
-			<img class="img-desktop" src="images/alabamaot-desktop-5.png">							
+			<img class="img-desktop" src="https://res.cloudinary.com/tesseract/image/upload/f_auto,q_auto/v1530378802/gerador-de-postagem/alabamaot-desktop-5.jpg">							
 		</div>
 	</section>
 
 	<section>
 		<div class="quadrado">
-			<img class="img-desktop" src="images/alabamaot-desktop-6.png">							
+			<img class="img-desktop" src="https://res.cloudinary.com/tesseract/image/upload/f_auto,q_auto/v1530378802/gerador-de-postagem/alabamaot-desktop-6.jpg">							
 		</div>
 	</section>
 
 	<section>
 		<div class="quadrado">
-			<img class="img-desktop" src="images/alabamaot-desktop-7.png">							
+			<img class="img-desktop" src="https://res.cloudinary.com/tesseract/image/upload/f_auto,q_auto/v1530378802/gerador-de-postagem/alabamaot-desktop-7.jpg">							
 		</div>
 	</section>
 </section>

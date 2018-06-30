@@ -20,7 +20,7 @@
 
 <div class="img-logo">
 	<a href="https://www.grupotesseract.com.br/" target="_blank">
-		<img src="images/logo-tesseract-preto-simples.png">
+		<img src="https://res.cloudinary.com/tesseract/image/upload/f_auto,q_auto/v1530378798/gerador-de-postagem/logo-tesseract-preto-simples.png">
 	</a>
 </div>
 
