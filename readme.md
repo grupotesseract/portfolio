@@ -90,6 +90,8 @@ npm install -g pngquant-bin
 
 ## Próximos passos do projeto
 
+- Adicionar o favicon.
+- Otimizar o loading time, minificando os arquivos.
 - Fazer um tutorial de como tirar os prints pelo developer tools.
 - Fazer o tutorial de como alterar as imagens, cores e gradientes.
 - Adicionar no header um link para o site do projeto que esta sendo visualizado.
