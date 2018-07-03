@@ -1,16 +1,22 @@
-# Gerador de Postagens & Portfólio do Grupo Tesseract
+# Portfólio do Grupo Tesseract & Gerador de Postagens
 
 ## https://postagem.grupotesseract.com.br/
 
-Template para criação de novas postagens para as mídias sociais.
-+
-Portfólio do Grupo Tesseract.
+**Portfólio do Grupo Tesseract**
+**+**
+**Template para criação de novas postagens para as mídias sociais.**
 
-Utilizando o developer tools do browser, deixe a resolução em 1080x1080 pixels e tire uma print da tela atual, isso gera um arquivo .png pronto para a postagem na mídia social.
+Portfólio dos projetos realizados pelo Grupo Tesseract. Esse portfólio foi criado utilizando Reveal.js, JQuery, Laravel 5.6, Laradock, SASS e NPM. 
+
+**Gerador de Postagens**
+
+1. Clique no ícone do olho para esconder o menu.
+2. Utilizando o developer tools do browser,  deixe a resolução em 1080x1080 pixels.
+3. No menu de opções, clique em Take Screenshot, isso gera um arquivo .png pronto para a postagem da imagem na mídia social.
 
 Gradientes e sombreamento feitos com CSS3/SASS.
 
-## Instalação
+## Instalando o Projeto
 
 1. **Clone do projeto**
 
@@ -121,6 +127,7 @@ https://laravel.com/
 
 - **Laradock**
 https://laradock.io/
+
 
 ## Passos da criação de um projeto Laravel com Laradock
 
