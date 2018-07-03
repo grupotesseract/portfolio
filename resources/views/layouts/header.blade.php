@@ -12,8 +12,8 @@
 			<i class="fab fa-github-square fa-2x"></i><p>grupotesseract</p>
 		</a>
 
-		<a href="https://github.com/grupotesseract/gerador-de-postagem" target="_blank">
-			<i class="fab fa-github-square fa-2x"></i><p>gerador-de-postagem</p>
+		<a href="https://github.com/grupotesseract/portfolio" target="_blank">
+			<i class="fab fa-github-square fa-2x"></i><p>portfólio</p>
 		</a>
 	</div>	
 </div>
