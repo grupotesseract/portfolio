@@ -21,7 +21,7 @@ Gradientes e sombreamento feitos com CSS3/SASS.
 1. **Clone do projeto**
 
 ```
-git clone --recurse-submodules https://github.com/Acquati/alabamaot-npccreator
+git clone --recurse-submodules https://github.com/Acquati/postagem
 ```
 
 2. **Criando o .env do Laravel**
@@ -127,7 +127,6 @@ https://laravel.com/
 
 - **Laradock**
 https://laradock.io/
-
 
 ## Passos da criação de um projeto Laravel com Laradock
 
