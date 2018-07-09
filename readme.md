@@ -1,6 +1,6 @@
 # Portfólio do Grupo Tesseract & Gerador de Postagens
 
-## https://postagem.grupotesseract.com.br/
+## https://github.com/grupotesseract/portfolio
 
 **Portfólio do Grupo Tesseract**
 **+**
@@ -21,20 +21,20 @@ Gradientes e sombreamento feitos com CSS3/SASS.
 1. **Clone do projeto**
 
 ```
-git clone --recurse-submodules https://github.com/Acquati/postagem
+git clone --recurse-submodules https://github.com/grupotesseract/portfolio
 ```
 
 2. **Criando o .env do Laravel**
 
 - **Áreas que precisam ser configuradas:**
 ```
-APP_URL=http://localhost:8085
+APP_URL=http://localhost:8080
 ```
 ```
 DB_CONNECTION=pgsql
 DB_HOST=172.17.0.1
 DB_PORT=5432
-DB_DATABASE=postagem
+DB_DATABASE=portfolio
 DB_USERNAME=default
 DB_PASSWORD=secret
 ```
@@ -45,7 +45,7 @@ DB_PASSWORD=secret
 ```
 # Data Path
 Choose storage path on your machine. For all storage systems.
-DATA_SAVE_PATH=~/.laradock/postagem
+DATA_SAVE_PATH=~/.laradock/portfolio
 ```
 ```
 # PHP_FPM
@@ -53,11 +53,11 @@ PHP_FPM_INSTALL_PGSQL=true
 ```
 ```
 # NGINX
-NGINX_HOST_HTTP_PORT=8085
+NGINX_HOST_HTTP_PORT=8080
 ```
 ```
 # POSTGRES
-POSTGRES_DB=postagem
+POSTGRES_DB=portfolio
 POSTGRES_USER=default
 POSTGRES_PASSWORD=secret
 POSTGRES_PORT=5432
@@ -79,7 +79,7 @@ docker-compose exec --user=laradock workspace php artisan migrate
 ```
 - Caso o Laradock não crie o DB automaticamente, crie manualmente:
 ```
-docker-compose exec postgres createdb -U default postagem
+docker-compose exec postgres createdb -U default portfolio
 docker-compose exec --user=laradock workspace php artisan migrate
 ```
 
@@ -134,8 +134,8 @@ https://laradock.io/
 
 ```
 cd Documents
-git clone https://github.com/grupotesseract/gerador-de-postagem.git
-cd gerador-de-postagem
+git clone https://github.com/grupotesseract/portfolio.git
+cd portfolio
 ```
 
 2. **Adicionando o Laravel**
@@ -145,7 +145,7 @@ cd ..
 git clone https://github.com/laravel/laravel.git
 cd laravel
 rm -rf .git
-cp -r ./ ~/Documents/gerador-de-postagem
+cp -r ./ ~/Documents/portfolio
 git add .
 git commit -m "adicionando laravel"
 ggpush

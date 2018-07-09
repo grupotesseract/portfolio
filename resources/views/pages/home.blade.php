@@ -15,8 +15,9 @@
 		@include('projects.tesseract')
 
 		@include('projects.shanti')
-
+		{{--
 		@include('projects.alabamaot')
+		--}}
 	</div>
 </div>
 
