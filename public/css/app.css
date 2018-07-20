@@ -178,6 +178,15 @@ body {
   display: none;
 }
 
+.header #hrefLink p {
+  -webkit-text-decoration-color: #FF6147;
+          text-decoration-color: #FF6147;
+}
+
+.header #hrefLink i {
+  color: #FF6147;
+}
+
 @media (max-width: 991.98px) {
   .header .links-header {
     display: none;
@@ -315,6 +324,10 @@ section section .quadrado a h1 {
 .seus-direitos section {
   background: -webkit-gradient(linear, left top, right bottom, from(#0086b3), to(#0086b3));
   background: linear-gradient(to bottom right, #0086b3, #0086b3);
+}
+
+.abenepi2 section {
+  background: radial-gradient(white, #972038);
 }
 
 .tesseract section {

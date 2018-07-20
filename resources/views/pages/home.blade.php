@@ -12,6 +12,8 @@
 
 		@include('projects.seus-direitos')
 
+		@include('projects.abenepi2')
+
 		@include('projects.tesseract')
 
 		@include('projects.shanti')

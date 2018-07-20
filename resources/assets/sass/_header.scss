@@ -53,6 +53,16 @@ body {
 		display: none;
 	}
 
+	#hrefLink {
+		p {
+			text-decoration-color: #FF6147;
+		}
+
+		i {
+			color: #FF6147;
+		}
+	}
+
 	@media (max-width: 991.98px) {
 		.links-header {
 			display: none;
