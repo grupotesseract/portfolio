@@ -24,7 +24,7 @@
 
 <div class="mobileLink">
 	<a href="https://vivala.com.br/" target="_blank" class="hrefLink">
-		<i class="fas fa-home fa-2x iconLink"></i><p class="showLink">vivala.com.br</p>
+		<i class="fas fa-home fa iconLink"></i><p class="showLink">vivala.com.br</p>
 	</a>	
 </div>
 

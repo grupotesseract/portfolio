@@ -252,9 +252,9 @@ body {
   .mobileLink a:visited i,
   .mobileLink a:hover i,
   .mobileLink a:active i {
-    width: 36px;
+    width: 24px;
     text-align: center;
-    margin-right: 0.5rem;
+    margin-right: 0.3rem;
   }
 
   .mobileLink a p,
