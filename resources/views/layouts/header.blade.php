@@ -3,8 +3,8 @@
 		<h1 id="teste">Portfólio<br class="viuva"> Grupo Tesseract</h1>
 	</a>
 
-	<a href="https://vivala.com.br/" target="_blank" id="hrefLink">
-		<i class="fas fa-home fa-2x" id="iconLink"></i><p id="showLink">vivala.com.br</p>
+	<a href="https://vivala.com.br/" target="_blank" class="hrefLink desktopLink">
+		<i class="fas fa-home fa-2x iconLink"></i><p class="showLink">vivala.com.br</p>
 	</a>
 
 	<div class="links-header">
@@ -20,6 +20,12 @@
 			<i class="fab fa-github-square fa-2x"></i><p>portfólio</p>
 		</a>
 	</div>	
+</div>
+
+<div class="mobileLink">
+	<a href="https://vivala.com.br/" target="_blank" class="hrefLink">
+		<i class="fas fa-home fa-2x iconLink"></i><p class="showLink">vivala.com.br</p>
+	</a>	
 </div>
 
 <div class="img-logo">

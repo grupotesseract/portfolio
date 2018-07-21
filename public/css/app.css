@@ -178,12 +178,12 @@ body {
   display: none;
 }
 
-.header #hrefLink p {
+.header .hrefLink .showLink {
   -webkit-text-decoration-color: #FF6147;
           text-decoration-color: #FF6147;
 }
 
-.header #hrefLink i {
+.header .hrefLink .iconLink {
   color: #FF6147;
 }
 
@@ -194,6 +194,102 @@ body {
 
   .header .viuva {
     display: block;
+  }
+
+  .header .desktopLink {
+    display: none !important;
+  }
+}
+
+.mobileLink {
+  display: none !important;
+}
+
+@media (max-width: 991.98px) {
+  .mobileLink {
+    display: block !important;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 0 0 0.5rem 0.5rem;
+    z-index: 2000;
+  }
+
+  .mobileLink .hrefLink .showLink {
+    -webkit-text-decoration-color: #FF6147;
+            text-decoration-color: #FF6147;
+  }
+
+  .mobileLink .hrefLink .iconLink {
+    color: #FF6147;
+  }
+
+  .mobileLink a,
+  .mobileLink a:link,
+  .mobileLink a:visited,
+  .mobileLink a:hover,
+  .mobileLink a:active {
+    display: block;
+    color: black;
+    text-decoration: none;
+  }
+
+  .mobileLink a i,
+  .mobileLink a p,
+  .mobileLink a:link i,
+  .mobileLink a:link p,
+  .mobileLink a:visited i,
+  .mobileLink a:visited p,
+  .mobileLink a:hover i,
+  .mobileLink a:hover p,
+  .mobileLink a:active i,
+  .mobileLink a:active p {
+    display: inline-block;
+  }
+
+  .mobileLink a i,
+  .mobileLink a:link i,
+  .mobileLink a:visited i,
+  .mobileLink a:hover i,
+  .mobileLink a:active i {
+    width: 36px;
+    text-align: center;
+    margin-right: 0.5rem;
+  }
+
+  .mobileLink a p,
+  .mobileLink a:link p,
+  .mobileLink a:visited p,
+  .mobileLink a:hover p,
+  .mobileLink a:active p {
+    text-decoration: underline;
+    font-family: "EdmondSans Regular", serif, sans-serif;
+    font-size: 1.5rem;
+    margin: 0;
+    color: black;
+  }
+
+  .mobileLink a:hover i,
+  .mobileLink a:hover p,
+  .mobileLink a:active i,
+  .mobileLink a:active p,
+  .mobileLink a:link:hover i,
+  .mobileLink a:link:hover p,
+  .mobileLink a:link:active i,
+  .mobileLink a:link:active p,
+  .mobileLink a:visited:hover i,
+  .mobileLink a:visited:hover p,
+  .mobileLink a:visited:active i,
+  .mobileLink a:visited:active p,
+  .mobileLink a:hover:hover i,
+  .mobileLink a:hover:hover p,
+  .mobileLink a:hover:active i,
+  .mobileLink a:hover:active p,
+  .mobileLink a:active:hover i,
+  .mobileLink a:active:hover p,
+  .mobileLink a:active:active i,
+  .mobileLink a:active:active p {
+    color: gray;
   }
 }
 
@@ -231,6 +327,7 @@ body {
 
 @media (max-width: 991.98px) {
   .button-hide {
+    display: none;
     padding: 0 0 0.5rem 0.5rem;
   }
 }

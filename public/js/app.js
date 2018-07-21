@@ -85,52 +85,80 @@ $(".button-hide").on("click", function () {
 
 /* Eventos */
 Reveal.addEventListener('vivala', function () {
-	document.getElementById("hrefLink").href = "https://vivala.com.br/";
-	document.getElementById("showLink").innerHTML = "vivala.com.br";
-	document.getElementById("showLink").style.textDecorationColor = "#FF6147";
-	document.getElementById("iconLink").style.color = "#FF6147";
+	var x = document.getElementsByClassName("hrefLink");
+	for (i = 0; i < x.length; i++) {
+		x[i].href = "https://vivala.com.br/";
+		y = x[i].children;
+		y[0].style.color = "#FF6147";
+		y[1].style.textDecorationColor = "#FF6147";
+		y[1].innerHTML = "vivala.com.br";
+	}
 }, false);
 
 Reveal.addEventListener('boitata', function () {
-	document.getElementById("hrefLink").href = "https://coletivoboitata.com.br/";
-	document.getElementById("showLink").innerHTML = "coletivoboitata.com.br";
-	document.getElementById("showLink").style.textDecorationColor = "#C3002F";
-	document.getElementById("iconLink").style.color = "#C3002F";
+	var x = document.getElementsByClassName("hrefLink");
+	for (i = 0; i < x.length; i++) {
+		x[i].href = "https://coletivoboitata.com.br/";
+		y = x[i].children;
+		y[0].style.color = "#C3002F";
+		y[1].style.textDecorationColor = "#C3002F";
+		y[1].innerHTML = "coletivoboitata.com.br";
+	}
 }, false);
 
 Reveal.addEventListener('acordoRapido', function () {
-	document.getElementById("hrefLink").href = "https://www.acordorapido.net.br/";
-	document.getElementById("showLink").innerHTML = "acordorapido.net.br";
-	document.getElementById("showLink").style.textDecorationColor = "#96CA5B";
-	document.getElementById("iconLink").style.color = "#96CA5B";
+	var x = document.getElementsByClassName("hrefLink");
+	for (i = 0; i < x.length; i++) {
+		x[i].href = "https://www.acordorapido.net.br/";
+		y = x[i].children;
+		y[0].style.color = "#96CA5B";
+		y[1].style.textDecorationColor = "#96CA5B";
+		y[1].innerHTML = "acordorapido.net.br";
+	}
 }, false);
 
 Reveal.addEventListener('seusDireitos', function () {
-	document.getElementById("hrefLink").href = "https://play.google.com/store/apps/details?id=com.seusdireitos";
-	document.getElementById("showLink").innerHTML = "Play Store - Seus Direitos";
-	document.getElementById("showLink").style.textDecorationColor = "#0087AF";
-	document.getElementById("iconLink").style.color = "#0087AF";
+	var x = document.getElementsByClassName("hrefLink");
+	for (i = 0; i < x.length; i++) {
+		x[i].href = "https://play.google.com/store/apps/details?id=com.seusdireitos";
+		y = x[i].children;
+		y[0].style.color = "#0087AF";
+		y[1].style.textDecorationColor = "#0087AF";
+		y[1].innerHTML = "Play Store - Seus Direitos";
+	}
 }, false);
 
 Reveal.addEventListener('abenepi2', function () {
-	document.getElementById("hrefLink").href = "https://www.grupotesseract.com.br/";
-	document.getElementById("showLink").innerHTML = "Site Institucional";
-	document.getElementById("showLink").style.textDecorationColor = "#972038";
-	document.getElementById("iconLink").style.color = "#972038";
+	var x = document.getElementsByClassName("hrefLink");
+	for (i = 0; i < x.length; i++) {
+		x[i].href = "https://www.grupotesseract.com.br/";
+		y = x[i].children;
+		y[0].style.color = "#972038";
+		y[1].style.textDecorationColor = "#972038";
+		y[1].innerHTML = "Em Desenvolvimento";
+	}
 }, false);
 
 Reveal.addEventListener('tesseract', function () {
-	document.getElementById("hrefLink").href = "https://www.grupotesseract.com.br/";
-	document.getElementById("showLink").innerHTML = "Site Institucional";
-	document.getElementById("showLink").style.textDecorationColor = "#000000";
-	document.getElementById("iconLink").style.color = "#000000";
+	var x = document.getElementsByClassName("hrefLink");
+	for (i = 0; i < x.length; i++) {
+		x[i].href = "https://www.grupotesseract.com.br/";
+		y = x[i].children;
+		y[0].style.color = "#000000";
+		y[1].style.textDecorationColor = "#000000";
+		y[1].innerHTML = "Site Institucional";
+	}
 }, false);
 
 Reveal.addEventListener('shanti', function () {
-	document.getElementById("hrefLink").href = "https://dev.institutoshanti.com/";
-	document.getElementById("showLink").innerHTML = "dev.institutoshanti.com";
-	document.getElementById("showLink").style.textDecorationColor = "#862943";
-	document.getElementById("iconLink").style.color = "#862943";
+	var x = document.getElementsByClassName("hrefLink");
+	for (i = 0; i < x.length; i++) {
+		x[i].href = "https://dev.institutoshanti.com/";
+		y = x[i].children;
+		y[0].style.color = "#862943";
+		y[1].style.textDecorationColor = "#862943";
+		y[1].innerHTML = "dev.institutoshanti.com";
+	}
 }, false);
 
 /**
